@@ -1,0 +1,16 @@
+/* Base Styles*/
+body {
+    height: 100vh;
+    background-color: $colorWhite;
+    // background-image: url("../images/background.png");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: 80%;
+    }
+
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: $letraRoboto;
+    font-weight: $fontRegular;
+    font-size: $fontSize_medium;
+    }

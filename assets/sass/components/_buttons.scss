@@ -1,0 +1,102 @@
+.miBoton {
+  background-color: $clornICKEL;
+  border: none;
+  color: $colorWhite;
+  //   padding: 15px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  text-decoration: none;
+  //   display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5rem;
+}
+
+.cuerpo_seleccion_btn_anterior {
+  background-color: $colorWhite;
+  border: none;
+  color: $clornICKEL;
+  font-size: $fontSize_large;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  //font-size: 16px;
+  margin-right: 1px;
+  //   margin: 4px 2px;
+  border-radius: 5rem 0 0 5rem;
+
+  display: inline-block;
+  //float: clear;
+  //margin-right: 0px;
+}
+
+.cuerpo_seleccion_btn_blanco {
+  background-color: $colorWhite;
+  border: none;
+  color: $clorEerieBlack;
+  font-size: $fontSize_large;
+  //   padding: 15px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  //font-size: 16px;
+  //   margin: 4px 2px;
+  margin-right: 1px;
+  border-radius: 0 0 0 0;
+
+  display: inline-block;
+  //float: left;
+  //margin-left: 0px;
+}
+
+.cuerpo_seleccion_btn_gris {
+  background-color: $clornICKEL;
+  border: none;
+  color: $colorWhite;
+  font-size: $fontSize_large;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  //font-size: 16px;
+  margin-right: 1px;
+  //   margin: 4px 2px;
+  //   border-radius: 5rem;
+
+  display: inline-block;
+  //float: left;
+}
+
+.cuerpo_seleccion_btn_siguiente {
+  background-color: $colorWhite;
+  border: none;
+  color:$clorEerieBlack;
+  font-size: $fontSize_large;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  //font-size: 16px;
+  //   margin: 4px 2px;
+  border-radius: 0 5rem 5rem 0;
+
+  display: inline-block;
+  //float: left;
+}

@@ -1,0 +1,38 @@
+nav{
+    background: $clorRainsinBlack;
+    // color: $colorWhite!important;
+
+    .nav_logo{
+        width: 30%;
+        text-align: center;
+    }
+    .nav_logo_image{
+        width: 3em;
+    }
+
+    ul{
+        li{
+            a{
+                color: $colorWhite!important;
+                @include fuenteRoboto;
+
+                 &.navbar_ancla_selected{
+                     color: $clorRuddyPink!important;
+                 }
+                // &.active{
+                //     color: $clornICKEL!important;
+                // }
+                // &.nav-link:active{
+                //     color: $clorRuddyPink!important;
+                // }
+                // &.nav-link:visited{
+                //     color: $clorRuddyPink!important;
+                // }
+               
+                &.nav-link:focus{
+                    color: $clorRuddyPink!important;
+                }
+            }
+        }
+    }
+}

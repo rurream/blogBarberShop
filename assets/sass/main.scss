@@ -3,21 +3,31 @@
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
+
 @import 'vendors/bootstrap';
 @import 'vendors/jquery-ui';
-@import 'base/reset';
+
+// @import 'base/reset';
 @import 'base/typography';
+// @import 'base/base';
+
 @import 'layout/navigation';
-@import 'layout/grid';
+// @import 'layout/grid';
 @import 'layout/header';
+@import 'layout/cuerpo';
 @import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
+// @import 'layout/sidebar';
+// @import 'layout/forms';
+
 @import 'components/buttons';
 @import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
+// @import 'components/cover';
+// @import 'components/dropdown';
+
 @import 'pages/home';
-@import 'pages/contact';
+// @import 'pages/contact';
+
+@import 'vendors/scss/bootstrap';
+
 @import 'themes/theme';
 @import 'themes/admin';
