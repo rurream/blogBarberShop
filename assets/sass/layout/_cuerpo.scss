@@ -14,18 +14,12 @@
         color: $clorFuzzyWuzzy;
     }
 
-    // .cuerpo_foto{
-    //     background-image: url('../img/naomi-thai.png');
-    //     // background: red;
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     width: 100%;
-    // }
     .cuerpo_foto{
         width: 60%;
     }
     .cuerpo_mail{
+        padding-top: 2em;
+        text-align: center;
         h4{
             font-family: $letraPlayfairDisplay;
             color: $clorEerieBlack;
@@ -37,6 +31,9 @@
             color:$clorSPANISHpINK;
         }
     }
+    .cuerpo_texto{
+        padding-top: 2em;
+    }
     
 }
 
@@ -44,20 +41,9 @@
 .cuerpo_botonera{
     padding-top: 2em;
     padding-bottom: 2em;
-    // padding-left: 3em;
-    // padding-right: 3em;
     background: $clorLightGray;
-    // align-items: center;
-    // text-align: center;
-    // align-items: center;
 
     .cuerpo_botonera_container{
-        //  width: 50%;
-        //  text-align: center;
-         //background: red;
-        //  border-color: blue($color: #000000);
-        //  border-width: 3px;
-        //  border-style: solid;
         display: flex;
         align-items: center;
         justify-content: center;

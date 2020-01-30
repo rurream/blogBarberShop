@@ -1,4 +1,7 @@
 // main.scss # Manifest File
+
+@import 'vendors/bootstrapv41/bootstrap';
+
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
@@ -27,7 +30,7 @@
 @import 'pages/home';
 // @import 'pages/contact';
 
-@import 'vendors/scss/bootstrap';
+// @import 'vendors/scss/bootstrap';
 
 @import 'themes/theme';
 @import 'themes/admin';

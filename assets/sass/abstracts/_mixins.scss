@@ -3,3 +3,7 @@
 @mixin fuenteRoboto  {
     font-family: 'Roboto', sans-serif;
 }
+
+@mixin font-size_achicada($tamano) {
+    font-size: ($tamano * 0.7) + px;
+  }
